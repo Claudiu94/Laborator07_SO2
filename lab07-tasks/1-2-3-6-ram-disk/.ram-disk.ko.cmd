@@ -1,0 +1,1 @@
+cmd_/home/student/so2/lab07-tasks/1-2-3-6-ram-disk/ram-disk.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/student/so2/lab07-tasks/1-2-3-6-ram-disk/ram-disk.ko /home/student/so2/lab07-tasks/1-2-3-6-ram-disk/ram-disk.o /home/student/so2/lab07-tasks/1-2-3-6-ram-disk/ram-disk.mod.o ;  true

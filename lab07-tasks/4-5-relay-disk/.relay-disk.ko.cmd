@@ -1,0 +1,1 @@
+cmd_/home/student/so2/lab07-tasks/4-5-relay-disk/relay-disk.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/student/so2/lab07-tasks/4-5-relay-disk/relay-disk.ko /home/student/so2/lab07-tasks/4-5-relay-disk/relay-disk.o /home/student/so2/lab07-tasks/4-5-relay-disk/relay-disk.mod.o ;  true
